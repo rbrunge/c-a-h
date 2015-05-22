@@ -1,0 +1,99 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+/*   position: relative;
+  min-height: 100%;
+  */
+}
+
+body {
+  /* Margin bottom by footer height */
+  /* margin-bottom: 60px;
+*/}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container-fluid {
+  /*  width: auto; */
+  padding: 0 0;
+  margin: 0 0;
+}
+
+
+body, html {
+  height: 100%;
+  /* overflow-x: hidden;
+*/}
+
+
+.app-black-screen {
+  background-color: black;
+  color: white;
+  overflow-y: scroll;
+}
+.app-white-screen {
+  background-color: white;
+  color: black;
+  overflow-y: scroll;
+}
+.app-black-screen .content, .app-white-screen .content {
+  max-width: 600px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;  
+  display: block;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+body,html {
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.no-margin {
+  margin: 0 0 0 0; 
+}
+
+.col-lg-12 {
+  height: 50%;
+}
+
+.height-20 {
+  height: 20% !important;
+}
+.height-30 {
+  height: 30% !important;
+}
+.height-40 {
+  height: 40% !important;
+}
+.height-50 {
+  height: 50% !important;
+}
+.height-fill {
+  height: * !important;
+}
