@@ -1,5 +1,4 @@
 # c-a-h
 
-Read wiki:  
-[../wiki/](c-a-h Wiki)  
+Read wiki for information:  [./wiki/](c-a-h Wiki)  
 
