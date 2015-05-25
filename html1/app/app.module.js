@@ -10,6 +10,7 @@
 		'app.splashPage',
 		'app.startGame',
 		'app.newGame',
-		'app.joinGame'
+		'app.joinGame',
+		'app.readyToStart'
 	])
 })();
